@@ -1,0 +1,71 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* body {
+    background-image: url('asset/Background.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 963px;
+} */
+
+
+
+.navbar{
+    font-family: 'Inter', sans-serif;
+    background-image: url('asset/Background.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.navbar-nav{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero{
+    padding-top: 56px;
+    background-image: url('asset/Background.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 963px;
+}
+
+.hero_title{
+    font-size: 64px;
+    font-weight: 600;
+    color: white;
+}
+
+.hero_description{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.hero .btn{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero__image img {
+    height: 759px;
+  }
