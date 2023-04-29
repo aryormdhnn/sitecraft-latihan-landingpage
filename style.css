@@ -40,14 +40,25 @@
     font-weight: 500;
 }
 
-.hero{
+.hero {
+    position: relative;
     padding-top: 56px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
     background-image: url('asset/Background.png');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    height: 963px;
+    z-index: -1;
 }
+
 
 .hero_title{
     font-size: 64px;
@@ -66,6 +77,17 @@
     font-weight: 400;
 }
 
-.hero__image img {
+.hero_image img {
     height: 759px;
+    width: 100%;
   }
+
+
+  .logo {
+    padding: 80px 0;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
