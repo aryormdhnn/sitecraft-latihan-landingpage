@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Inter', sans-serif;
+}
 
 .navbar{
     font-family: 'Inter', sans-serif;
@@ -19,17 +22,28 @@
     font-size: 30px;
     font-weight: 700;
     color: white;
+    margin-top: 16px;
+
 }
 
 .navbar-nav{
     font-size: 16px;
     font-weight: 500;
     color: white;
+    margin-top: 16px;
 }
 
-.btn {
+.button-hero {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
+    color: white;
+    background-color: #0071FF;
+    border-radius: 10px;
+    padding: 12px 32px;
+    margin-top: 16px;
+    border: none;
+    transition: 0.3s;
+
 }
 
 .hero {
@@ -260,6 +274,60 @@
     border-radius: 12px;
     padding: 12px 56px;
     border: none;
-    transition: 0.3s;
-    
+    transition: 0.3s; 
+}
+
+.footer{
+    background-color: #2D2D2D;
+    padding-top: 80px;
+    padding-bottom:20px ;
+}
+
+.footer-left h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.footer-left p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.footer-right h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.footer-right li{
+    list-style: none;
+}
+
+.footer-right li a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-social a{
+    margin-right: 16px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+footer hr {
+    border-color: white;
+  }
+
+.footerbawah {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
 }
