@@ -3,11 +3,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
     font-family: 'Inter', sans-serif;
+    
 }
 
 .navbar{
@@ -90,7 +90,7 @@ body{
 
 
   .logo {
-    padding: 80px 0;
+    margin: 120px 0;
 }
 
 .logo img {
@@ -105,6 +105,10 @@ body{
     text-align: center;
     margin-bottom: 24px;
 }
+
+.why-choose{
+    margin: 120px 100px;
+    }
 
 .card-why-choose{
     border-radius: 20px;
@@ -130,12 +134,17 @@ body{
 }
 
 .feature{
-    margin: 80px 0;
+    margin: 120px 100px;
+}
+
+.feature-1{
+    margin:120px 0;
 }
 
 .feature-text{
     margin: 0 32px;
 }
+
 
 .feature-text h2{
     font-size: 56px;
@@ -156,7 +165,7 @@ body{
 }
 
 .portfolio{
-    margin: 80px 0;
+    margin: 120px 0;
     background-image: url('asset/Union.png');
     background-color: #151515;
     background-size: cover;
@@ -174,7 +183,7 @@ body{
 .portfolio p{
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 48gtpx;
+    margin-bottom: 48px;
     color: white;
 }
 
@@ -200,7 +209,7 @@ body{
 }
 
 .testimonial{
-    margin: 80px 0;
+    margin: 120px 0;
 }
 
 .testimonial h2{
@@ -277,57 +286,214 @@ body{
     transition: 0.3s; 
 }
 
-.footer{
+.footer {
     background-color: #2D2D2D;
-    padding-top: 80px;
-    padding-bottom:20px ;
-}
-
-.footer-left h3{
+    padding: 40px 0;
+  }
+  
+  .footer-left h3 {
     font-size: 24px;
     font-weight: 700;
     color: white;
     margin-bottom: 16px;
-}
-
-.footer-left p{
+   
+  }
+  
+  .footer-left p {
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
     margin-bottom: 16px;
-}
-
-.footer-right h5{
+   
+  }
+  
+  .footer-right h5 {
     font-size: 16px;
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 16px;
-}
-
-.footer-right li{
+    
+  }
+  
+  .footer-right ul {
     list-style: none;
-}
-
-.footer-right li a{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-right li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-right li a {
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
     text-decoration: none;
-}
-
-.footer-social a{
+  }
+  
+  .footer-social a {
+    display: inline-block;
     margin-right: 16px;
     font-size: 24px;
     color: #ffffff;
-}
-
-footer hr {
-    border-color: white;
   }
-
-.footerbawah {
+  
+  .footerbawah {
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
     text-align: center;
+    margin-top: 20px;
+  }
+  
+
+
+/* Responsive */
+
+@media screen and (max-width: 768px){
+
+    html, body {
+        overflow-x: hidden;
+        }
+
+    .navbar{
+        padding: 16px 32px;
+    }
+
+    .navbar-brand{
+        font-size: 24px;
+    }
+
+    .navbar-menu{
+        margin-right: 0;
+    }
+
+    .navbar-menu a{
+        font-size: 16px;
+    }
+
+    .navbar-menu a:hover{
+        color: #0874FF;
+    }
+
+    .navbar-menu a.active{
+        color: #0874FF;
+    }
+
+
+    .hero_title{
+        font-size: 48px;
+        margin-bottom: 24px;
+    }
+
+    .hero::before {
+        height: 90%;
+    }
+
+    .hero_description{
+        font-size: 16px;
+    }
+
+    .hero_image img{
+        height: 300px;
+        width: 100%;
+    }
+
+    .logo{
+        margin: 40px 0;
+    }
+
+    .why-choose{
+        margin: 80px 0;
+    }
+
+    .title-card{
+        font-size: 40px;
+    }
+
+    .card-why-choose{
+        margin: 16px;
+        border-radius: 20px;
+        padding: 32px 24px;
+    }
+
+    .feature{
+        margin: 40px 0;
+    }
+
+    .feature-text{
+       margin: 0 20px;
+    }
+
+    .feature-text h2{
+        font-size: 32px;
+    }
+
+    .feature-text p{
+        font-size: 16px;
+    }
+
+    .feature-image img{
+        height: 100%;
+        padding: 20px;
+    }
+
+    .feature-1{
+        margin:40px 0;
+    }
+
+    .portfolio{
+        padding: 80px 20px;
+    }
+
+    .portfolio h2{
+        font-size: 40px;
+    }
+
+    .portfolio p{
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    
+    .testimonial{
+        margin: 80px 20px;
+    }
+
+    .card-testimonial{
+        margin-top: 40px;
+    }
+
+    .testimonial h2{
+        font-size: 40px;
+    }
+
+    .testimonial-text{
+        font-size: 16px;
+        margin: 16px 0;
+    }
+
+    .testimonial-author{
+        font-size: 16px;
+    }
+
+    .card-cta{
+        padding: 24px;
+    }
+
+    .cta-text{
+        font-size: 24px;
+    }
+
+    .button-cta{
+        font-size: 16px;
+        padding: 12px 32px;
+    }
+
+    .footer {
+        padding: 80px 0;
+      }
+      
+
+
 }
